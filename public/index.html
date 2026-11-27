@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A weekly Amharic comedy brief and YouTube chart for Ethiopian creators.">
+  <meta name="theme-color" content="#171927">
+  <title>Habesha Pulse — Amharic comedy trends</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" type="module"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap bar">
+      <a href="/" class="brand"><span class="mark" aria-hidden="true">✳</span> Habesha Pulse</a>
+      <nav aria-label="Sections"><a href="#brief">Creator brief</a><a href="#chart">YouTube chart</a></nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="headline">
+      <div>
+        <p class="kicker" lang="am">የሳምንቱ የኮሜዲ ሀሳቦች</p>
+        <h1 id="headline">What should<br>you film next?</h1>
+        <p>Amharic comedy formats, real examples, and a fresh idea for your next short.</p>
+        <a class="cta" href="#brief">Explore the brief <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true"><span>ሳቅ</span><i>✳</i></div>
+    </section>
+
+    <section id="brief" aria-labelledby="brief-title">
+      <div class="section-head">
+        <div><p class="kicker" id="edition"></p><h2 id="brief-title">The creator brief</h2></div>
+        <p>Curated examples and original ideas for Ethiopian creators.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter creator examples by platform">
+        <button type="button" aria-pressed="true" data-platform="All">All platforms</button>
+        <button type="button" aria-pressed="false" data-platform="YouTube">YouTube</button>
+        <button type="button" aria-pressed="false" data-platform="TikTok">TikTok</button>
+      </div>
+      <p id="brief-status" role="status">Loading the creator brief…</p>
+      <div id="cards" class="grid"></div>
+    </section>
+
+    <section id="chart" aria-labelledby="chart-title">
+      <div class="section-head">
+        <div><p class="kicker">Regional rankings</p><h2 id="chart-title">YouTube chart</h2></div>
+        <p>Official chart order. Views are worldwide video totals.</p>
+      </div>
+      <p id="chart-status" role="status">Loading the chart…</p>
+      <ol id="rankings" class="rankings"></ol>
+    </section>
+    <noscript>Enable JavaScript to load the creator brief and YouTube chart.</noscript>
+  </main>
+  <footer><div class="wrap bar"><span class="brand">Habesha Pulse</span><a href="#headline">Back to top ↑</a></div></footer>
+</body>
+</html>

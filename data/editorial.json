@@ -1,0 +1,10 @@
+{
+  "edition": "2026-11-20",
+  "items": [
+    {"id":"excuse","platform":"YouTube","format":"Sketch","title":"An everyday excuse taken too far","am":"አስቂኝ ሰበብ","creator":"Arada Kidame","url":"https://www.youtube.com/watch?v=T9EX3j_H_E4","idea":"A friend owes you 100 birr and brings a slide deck to explain the delay.","color":"sun"},
+    {"id":"character","platform":"TikTok","format":"Sketch","title":"Play both sides of the conversation","am":"ሁለት ገጸ ባህሪያት","creator":"Mursho Salah","url":"https://www.tiktok.com/@murshosalah833","idea":"Play the customer ordering ‘the usual’ and the server who’s never seen them before.","color":"plum"},
+    {"id":"prank","platform":"TikTok","format":"Prank","title":"A prank with an extra guest","am":"ያልተጠበቀ እንግዳ","creator":"Bina","url":"https://www.tiktok.com/@bina1kunu","idea":"Tell a friend you brought one guest for coffee. Then have three more friends knock.","color":"mint"},
+    {"id":"joke","platform":"YouTube","format":"Stand-up","title":"A joke told straight to camera","am":"የአምስት ደቂቃ ጥሪ","creator":"Comedian Yasino","url":"https://www.youtube.com/watch?v=q_wSkGOlboU","idea":"Promise a five-minute family call. Cut to an hour later with a relative you’ve never met on speaker.","color":"plum"},
+    {"id":"live","platform":"YouTube","format":"Live clip","title":"Turn a live moment into a short","am":"ከቀጥታ ስርጭት","creator":"Natymon","url":"https://www.youtube.com/watch?v=jQhSFK3BT74","idea":"Ask what viewers’ families always request when they travel home. Clip your funniest response.","color":"sun"}
+  ]
+}
